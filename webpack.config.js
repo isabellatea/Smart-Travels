@@ -3,21 +3,21 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 
 const config = {
-  entry: './index.js',
+  entry: './client/src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index_bundle.js'
   },
   module: {
     rules: [
-      { test: /\.(js)$/, use: 'babel-loader' },
+      { test: /\.(js)$/, use: 'babel-loader', exclude: /node_modules/  },
 
     { test: /\.(css)$/, use: ['style-loader', 'css-loader']}
     ],
   },
 
 plugins: [ new HtmlWebpackPlugin({
-template: './index.html'})]
+template: './client/src/index.html'})]
 }
 
 
