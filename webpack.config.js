@@ -1,7 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-
 const config = {
   entry: './client/src/index.js',
   output: {
@@ -13,11 +12,12 @@ const config = {
       { test: /\.(js)$/, use: 'babel-loader', exclude: /node_modules/  },
 
     { test: /\.(css)$/, use: ['style-loader', 'css-loader']}
+
+    
     ],
   },
 
-plugins: [ new HtmlWebpackPlugin({
-template: './client/src/index.html'})]
+plugins: [ new HtmlWebpackPlugin({template: './client/src/index.html'})]
 }
 
 
