@@ -1,3 +1,54 @@
 body {
-    background: green;
+    background-image: url('http://www.designbolts.com/wp-content/uploads/2012/12/Classic-45-degree-seamless-pattern-for-website-background.jpg');
 }
+
+h1 {
+  padding-bottom: 5px;
+}
+.logo {
+	float: left;
+	height: 54px;
+	margin: 5px 18px;
+}
+
+.navbg {
+	background: -moz-linear-gradient(182deg, rgba(117,209,255,1) 0%, rgba(47,122,128,1) 100%); /* ff3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(47,122,128,1)), color-stop(100%, rgba(117,209,255,1))); /* safari4+,chrome */
+	background: -webkit-linear-gradient(182deg, rgba(117,209,255,1) 0%, rgba(47,122,128,1) 100%); /* safari5.1+,chrome10+ */
+	background: -o-linear-gradient(182deg, rgba(117,209,255,1) 0%, rgba(47,122,128,1) 100%); /* opera 11.10+ */
+	background: -ms-linear-gradient(182deg, rgba(117,209,255,1) 0%, rgba(47,122,128,1) 100%); /* ie10+ */
+	background: linear-gradient(268deg, rgba(117,209,255,1) 0%, rgba(47,122,128,1) 100%); /* w3c */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2F7A80', endColorstr='#75D1FF',GradientType=1 ); /* ie6-9 */
+}
+
+.nav {
+	transform: translateY(10px);
+	z-index: 1;
+	padding-bottom: 10px;
+}
+
+.custom-image img {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+.custom-card {
+  padding: 10px 16px;
+}
+
+.custom-card p {
+  color: #999;
+}
+
+.custom-card h2 {
+	padding-top: 10px;
+}
+
+.cardHolder {
+	background-color: #ECECEC;
+	padding: 50px 100px;
+}
+/*
+.about {
+	padding: 50px;
+}*/
