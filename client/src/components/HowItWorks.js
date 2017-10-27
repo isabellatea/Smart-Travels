@@ -6,6 +6,7 @@ const HowItWorks = function() {
   return (
     <div className="howItWorksContainer">
       <h1>How It Works</h1>
+      <h3>Based on your budget, we'll provide a full itinerary of a flight, hotel, activities and places to eat! </h3>
         <Row gutter={16}>
           <Col span={8}>
             <Card>
@@ -25,7 +26,7 @@ const HowItWorks = function() {
               </div>
               <div className="custom-card">
                 <h2>Customize</h2>
-                <p>Select from an array of possible options within your budget. Customize every step!</p>
+                <p>We'll provide you with an amazing itinerary! Customize from there for your perfect trip!</p>
               </div>
             </Card>
           </Col>
@@ -36,7 +37,7 @@ const HowItWorks = function() {
               </div>
               <div className="custom-card">
                 <h2>View Itinerary</h2>
-                <p>See your amazing itinerary created and magically all ready for you!</p>
+                <p>View your final itinerary all ready for you and always available on your account!</p>
               </div>
             </Card>
           </Col>
