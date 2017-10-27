@@ -51,9 +51,9 @@ class Dashboard extends React.Component {
       </Sider>
       <Layout style={{ padding: '0 24px 24px' }}>
         <Steps>
-			    <Step status="finish" title="Login" icon={<Icon type="user" />} />
-			    <Step status="finish" title="Verification" icon={<Icon type="solution" />} />
-			    <Step status="process" title="Pay" icon={<Icon type="credit-card" />} />
+			    <Step status="finish" title="Flight" icon={<Icon type="user" />} />
+			    <Step status="finish" title="Hotel" icon={<Icon type="solution" />} />
+			    <Step status="process" title="Food & Activities" icon={<Icon type="credit-card" />} />
 			    <Step status="wait" title="Done" icon={<Icon type="smile-o" />} />
 			  </Steps>
         <Content className='centerContainer'>

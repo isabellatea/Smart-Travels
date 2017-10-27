@@ -5,7 +5,7 @@ import { Card, Col, Row } from 'antd';
 const HowItWorks = function() {
   return (
     <div className="howItWorksContainer">
-      <h1><a name="howItWorks">How It Works</a></h1>
+      <h1>How It Works</h1>
         <Row gutter={16}>
           <Col span={8}>
             <Card>

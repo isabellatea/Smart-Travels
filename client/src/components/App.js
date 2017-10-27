@@ -8,6 +8,9 @@ import GetStarted from './GetStarted';
 import CityGrid from './CityGrid';
 import { Card, Col, Row } from 'antd';
 import Dashboard from './Dashboard';
+import { DatePicker } from 'antd';
+const { MonthPicker, RangePicker } = DatePicker;
+
 
 class App extends React.Component {
 	constructor() {

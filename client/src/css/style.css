@@ -10,6 +10,10 @@ h1 {
   padding-bottom: 5px;
 }
 
+form {
+	margin: 20px 0px;
+}
+
 /* * * * * * * * * * * * * * * * * * * * * * * * * * *
   Top Navigation Bar
 * * * * * * * * * * * * * * * * * * * * * * * * * * */
@@ -30,9 +34,9 @@ h1 {
 }
 
 .nav {
-	transform: translateY(10px);
+	/*transform: translateY(10px);*/
 	z-index: 1;
-	padding-bottom: 10px;
+	/*padding-bottom: 10px;*/
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -42,6 +46,71 @@ h1 {
 .getStartedContainer, .howItWorksContainer, .cityGridContainer, .footer {
 	padding: 50px 100px;
 
+}
+
+.getStartedContainer {
+	background-image: url('http://i65.tinypic.com/348sxlk.jpg');
+	/*background-image: url('http://i64.tinypic.com/f1ed7t.jpg');*/
+	opacity: 0.95;
+  min-height: 55vh;
+  width: 100%;
+  /*background-repeat: no-repeat;*/
+  background-position: center;
+}
+
+.getStartedContainer h1 {
+	color: white;
+	text-align: center;
+
+}
+
+.goButton {
+  background-color: #ed7161; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input {
+  padding: 10px 5px;
+  font-size: 1.2em;
+  margin: 2px;
+}
+
+.getStartedInnerContainer {
+	/*margin: auto;*/
+	width: 100%;
+	background:rgba(255,255,255, 0.95);
+	min-height: 25vh;
+}
+
+
+.card-container > .ant-tabs-card > .ant-tabs-content {
+  height: 120px;
+  margin-top: -16px;
+}
+
+.card-container > .ant-tabs-card > .ant-tabs-content > .ant-tabs-tabpane {
+  background: #fff;
+  padding: 16px;
+}
+
+.card-container > .ant-tabs-card > .ant-tabs-bar {
+  border-color: #fff;
+}
+
+.card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+  border-color: transparent;
+  background: transparent;
+}
+
+.card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+  border-color: #fff;
+  background: #fff;
 }
 
 .custom-image img {
