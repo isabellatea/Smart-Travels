@@ -6,16 +6,22 @@ body {
     background-image: url('http://www.designbolts.com/wp-content/uploads/2012/12/Classic-45-degree-seamless-pattern-for-website-background.jpg');
 }
 
-h1, {
+h1 {
   padding-bottom: 5px;
 }
+
 h3 {
 	padding-top: -3px;
   padding-bottom: 8px;
 }
 
 form {
-	margin: 20px 0px;
+	margin: 25px 10px;
+}
+
+.footer {
+	background-color: #404040;
+	color: white;
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -52,14 +58,16 @@ form {
 
 }
 
+/* ** * * * * * * * * * * * *
+  Get Started
+* * * * * * * * * * * * * * */
 .getStartedContainer {
 	background-image: url('http://i65.tinypic.com/348sxlk.jpg');
 	/*background-image: url('http://i64.tinypic.com/f1ed7t.jpg');*/
-	opacity: 0.95;
-  min-height: 55vh;
-  width: 100%;
-  /*background-repeat: no-repeat;*/
   background-position: center;
+  background-size: cover; opacity: 0.95;
+  height: 450px;
+  width: 100%;
 }
 
 .getStartedContainer h1 {
@@ -68,11 +76,10 @@ form {
 
 }
 
-.slider {
-	/*max-width: 150px;*/
-	/*display: inline;*/
+/*.getStartedContainerInner {
+  min-height: 40%;
 }
-
+*/
 .goButton {
   background-color: #ed7161; 
   border: none;
@@ -95,13 +102,17 @@ input {
 	margin-top: 15px;
 }
 
-.getStartedInnerContainer {
-	/*margin: auto;*/
-	width: 100%;
-	background:rgba(255,255,255, 0.95);
-	min-height: 25vh;
+.ant-select-selection {
+	width: 200px;
 }
 
+/* ** * * * * * * * * * * * *
+  How It Works
+* * * * * * * * * * * * * * */
+
+.howItWorksContainer {
+	background-color: #ECECEC;
+}
 
 .card-container > .ant-tabs-card > .ant-tabs-content {
   /*height: 120px;*/
@@ -144,15 +155,7 @@ input {
 	padding-top: 10px;
 }
 
-.howItWorksContainer {
-	background-color: #ECECEC;
 
-}
-
-.footer {
-	background-color: #404040;
-	color: white;
-}
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * *
   Dashboard

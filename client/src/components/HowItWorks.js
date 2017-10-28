@@ -22,7 +22,7 @@ const HowItWorks = function() {
           <Col span={8}>
             <Card>
               <div className="custom-image">
-                <img alt="example" width="100%" src="http://i63.tinypic.com/290saih.png" />
+                <img alt="example" width="100%" src="http://i63.tinypic.com/il9d0x.png" />
               </div>
               <div className="custom-card">
                 <h2>Customize</h2>

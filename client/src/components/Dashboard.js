@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../css/style.css';
-import { Layout, Menu } from 'antd';
+import { Layout, Menu, Steps, Icon } from 'antd';
 const { SubMenu } = Menu;
 const { Header, Content, Footer, Sider } = Layout;
-import { Steps, Icon } from 'antd';
 const Step = Steps.Step;
 
 
@@ -25,9 +24,9 @@ class Dashboard extends React.Component {
 
     <Content style={{ padding: '20px 50px' }}>
       <Steps>
-		    <Step status="finish" title="Flights" icon={<Icon type="environment" />} />
-		    <Step status="finish" title="Hotels" icon={<Icon type="shop" />} />
-		    <Step status="process" title="Eat and Activities" icon={<Icon type="pushpin" />} />
+		    <Step status="finish" title="Stuff1" icon={<Icon type="environment" />} />
+		    <Step status="finish" title="Stuff2" icon={<Icon type="shop" />} />
+		    <Step status="process" title="More Stuff" icon={<Icon type="pushpin" />} />
 		    <Step status="wait" title="View Itinerary" icon={<Icon type="schedule" />} />
 		  </Steps>
       <Layout style={{ padding: '24px 0', background: '#fff' }}>
@@ -61,14 +60,7 @@ class Dashboard extends React.Component {
         <Content style={{ padding: '0 24px', minHeight: 280 }}>
           Content
         </Content>
-        <Sider width={200} style={{ background: '#fff' }}>
-          Itinerary Information
-           <Steps direction="vertical" current={1}>
-				    <Step title="Flights" description="This is a description." />
-				    <Step title="Hotel" description="This is a description." />
-				    <Step title="Eat and Activities" description="This is a description." />
-				  </Steps>
-        </Sider>
+
       </Layout>
     </Content>
   </Layout>
