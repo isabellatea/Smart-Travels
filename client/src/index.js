@@ -1,13 +1,8 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
-require('./css/style.css');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './components/App';
+import { LocaleProvider } from 'antd';
+import enUS from 'antd/lib/locale-provider/en_US';
 
-class App extends React.Component {
-    render() {
-        return (
-            <div>Hello World!</div>
-        )
-    }
-}
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<LocaleProvider locale={enUS}><App /></LocaleProvider>, document.getElementById('root'));

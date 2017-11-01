@@ -1,14 +1,51 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
-import './css/style.css';
+import '../css/style.css';
+import { Affix, Card, Col, Row, DatePicker } from 'antd';
+const { MonthPicker, RangePicker } = DatePicker;
+import Nav from './Nav';
+import HowItWorks from './HowItWorks';
+import GetStarted from './GetStarted';
+import Explore from './Explore';
+import Dashboard from './Dashboard';
+
 
 class App extends React.Component {
-    render() {
-        return (
-            <div>Hello World!!!</div>
-        )
-    }
+	constructor() {
+		super();
+		this.state = {
+      current: 'home'
+		};
+	}
+
+  //functions here
+
+  render() {
+		return (
+		  <div>
+		    <Affix>
+			    <div className='navbg'>
+			      <Nav />
+			    </div>
+		    </Affix>
+
+        { this.state.current === 'home' && <div>
+			    <GetStarted />
+			    <HowItWorks />
+			    <Explore />
+			    </div>
+		    }
+		    {this.state.current === 'dashboard' && <div>
+          <Dashboard />
+		    </div>
+		    }
+
+		    <footer className='footer'>
+		    Some footer stuff
+		    </footer>
+		  </div>
+		)
+  }
 }
 
 export default App;

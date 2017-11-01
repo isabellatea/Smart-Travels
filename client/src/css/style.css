@@ -1,3 +1,170 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * *
+  Global
+* * * * * * * * * * * * * * * * * * * * * * * * * * */
+
 body {
-    background: blue;
+    background-image: url('http://www.designbolts.com/wp-content/uploads/2012/12/Classic-45-degree-seamless-pattern-for-website-background.jpg');
+}
+
+h1 {
+  padding-bottom: 5px;
+}
+
+h3 {
+	padding-top: -3px;
+  padding-bottom: 8px;
+}
+
+form {
+	margin: 25px 10px;
+}
+
+.footer {
+	background-color: #404040;
+	color: white;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * *
+  Top Navigation Bar
+* * * * * * * * * * * * * * * * * * * * * * * * * * */
+.logo {
+	float: left;
+	height: 54px;
+	margin: 5px 18px;
+}
+
+.navbg {
+	background: -moz-linear-gradient(182deg, rgba(117,209,255,1) 0%, rgba(47,122,128,1) 100%); /* ff3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(47,122,128,1)), color-stop(100%, rgba(117,209,255,1))); /* safari4+,chrome */
+	background: -webkit-linear-gradient(182deg, rgba(117,209,255,1) 0%, rgba(47,122,128,1) 100%); /* safari5.1+,chrome10+ */
+	background: -o-linear-gradient(182deg, rgba(117,209,255,1) 0%, rgba(47,122,128,1) 100%); /* opera 11.10+ */
+	background: -ms-linear-gradient(182deg, rgba(117,209,255,1) 0%, rgba(47,122,128,1) 100%); /* ie10+ */
+	background: linear-gradient(268deg, rgba(117,209,255,1) 0%, rgba(47,122,128,1) 100%); /* w3c */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2F7A80', endColorstr='#75D1FF',GradientType=1 ); /* ie6-9 */
+}
+
+.nav {
+	/*transform: translateY(10px);*/
+	z-index: 1;
+	/*padding-bottom: 10px;*/
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * *
+  Home Page
+* * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.getStartedContainer, .howItWorksContainer, .cityGridContainer, .footer {
+	padding: 50px 100px;
+
+}
+
+/* ** * * * * * * * * * * * *
+  Get Started
+* * * * * * * * * * * * * * */
+.getStartedContainer {
+	background-image: url('http://i65.tinypic.com/348sxlk.jpg');
+	/*background-image: url('http://i64.tinypic.com/f1ed7t.jpg');*/
+  background-position: center;
+  background-size: cover; opacity: 0.95;
+  height: 450px;
+  width: 100%;
+}
+
+.getStartedContainer h1 {
+	color: white;
+	text-align: center;
+
+}
+
+/*.getStartedContainerInner {
+  min-height: 40%;
+}
+*/
+.goButton {
+  background-color: #ed7161; 
+  border: none;
+  color: white;
+  padding: 5px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /*float: right;*/
+}
+
+input {
+  /*padding: 10px 5px;*/
+  /*font-size: 1.2em;*/
+  margin: 2px;
+}
+
+.advancedOptions {
+	margin-top: 15px;
+}
+
+.ant-select-selection {
+	width: 200px;
+}
+
+/* ** * * * * * * * * * * * *
+  How It Works
+* * * * * * * * * * * * * * */
+
+.howItWorksContainer {
+	background-color: #ECECEC;
+}
+
+.card-container > .ant-tabs-card > .ant-tabs-content {
+  /*height: 120px;*/
+  margin-top: -16px;
+}
+
+.card-container > .ant-tabs-card > .ant-tabs-content > .ant-tabs-tabpane {
+  background: #fff;
+  padding: 16px;
+}
+
+.card-container > .ant-tabs-card > .ant-tabs-bar {
+  border-color: #fff;
+}
+
+.card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+  border-color: transparent;
+  background: transparent;
+}
+
+.card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+  border-color: #fff;
+  background: #fff;
+}
+
+.custom-image img {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+.custom-card {
+  padding: 10px 16px;
+}
+
+.custom-card p {
+  color: #999;
+}
+
+.custom-card h2 {
+	padding-top: 10px;
+}
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * *
+  Dashboard
+* * * * * * * * * * * * * * * * * * * * * * * * * * */
+#components-layout-demo-top-side .logo {
+  width: 120px;
+  height: 31px;
+  background: #333;
+  border-radius: 6px;
+  margin: 16px 28px 16px 0;
+  float: left;
 }
