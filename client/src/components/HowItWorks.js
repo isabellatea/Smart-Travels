@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import { Card, Col, Row } from 'antd';
+import options from '../images/options.png';
+import plane from '../images/plane.png';
+import list from '../images/list.png';
 
 
 const HowItWorks = function() {
@@ -11,18 +14,18 @@ const HowItWorks = function() {
           <Col span={8}>
             <Card>
               <div className="custom-image">
-                <img alt="example" width="100%" src="http://i66.tinypic.com/ouv7n5.png" />
+                <img alt="example" width="100%" src={plane} />
               </div>
               <div className="custom-card">
                 <h2>Location and Budget</h2>
-                <p>Tell us where you're going and what your budget is!</p>
+                <p>Tell us where you're going and what your budget is! Through your account, input your preferences for more personalized itineraries!</p>
               </div>
             </Card>
           </Col>
           <Col span={8}>
             <Card>
               <div className="custom-image">
-                <img alt="example" width="100%" src="http://i63.tinypic.com/il9d0x.png" />
+                <img alt="example" width="100%" src={options} />
               </div>
               <div className="custom-card">
                 <h2>Customize</h2>
@@ -33,7 +36,7 @@ const HowItWorks = function() {
           <Col span={8}>
             <Card>
               <div className="custom-image">
-                <img alt="example" width="100%" src="http://i63.tinypic.com/r0yzas.png" />
+                <img alt="example" width="100%" src={list} />
               </div>
               <div className="custom-card">
                 <h2>View Itinerary</h2>

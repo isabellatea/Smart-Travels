@@ -106,6 +106,20 @@ input {
 	width: 200px;
 }
 
+.ant-input {
+	font-size: 15px;
+
+}
+
+.ant-select-selection__rendered {
+	font-size: 15px;
+}
+
+.ant-calendar-picker-input {
+	transform: translateY(2px);
+	margin-left: 2px;
+}
+
 /* ** * * * * * * * * * * * *
   How It Works
 * * * * * * * * * * * * * * */

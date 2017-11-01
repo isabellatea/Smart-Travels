@@ -8,13 +8,15 @@ import HowItWorks from './HowItWorks';
 import GetStarted from './GetStarted';
 import Explore from './Explore';
 import Dashboard from './Dashboard';
+import sampleData from '../sampledata.js';
 
 
 class App extends React.Component {
 	constructor() {
 		super();
 		this.state = {
-      current: 'home'
+      current: 'home',
+      results: sampleData
 		};
 	}
 
